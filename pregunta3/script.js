@@ -17,7 +17,7 @@ function sendForm() {
 function sendWinner(){
 
     // var table = document.getElementById("tabla")
-    // var rows = table.rows[i].getElementsByTagName('td')
+    // var rows = table.rows[i].getElementsByTagName('cantidad')
 
     // for (var i = 1; i < table.rows.length; i++){
     //     if table.rows[i]
