@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pregunta3</title>
+</head>
+<body>
+    <label for="">Partido Politico:</label>
+    <input type="text" name="partido" id="partido" placeholder="Nombre">
+    <br>
+    <label for="">Orientación:</label>
+    <input type="text" name="orientacion" id="orientacion" placeholder="Orentación">
+    <br>
+    <label for="">Votos:</label>
+    <input type="text" name="votos" id="votos" placeholder="Cantidad de votos">
+    <br><br>
+    <button id="send" onclick="sendForm()"> Enviar </button>
+    <br><br>
+
+    <button id="ganador" onclick="sendWinner()">ganador</button>
+    <br><br>
+
+    <table id="tabla">
+        <tr>
+            <th id="partidoo">
+                nombre
+            </th>
+            <th>
+                orientacion
+            </th>
+            <th id="cantidad">
+                cantidad
+            </th>
+            <th>
+                estado
+            </th>
+        </tr>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>
